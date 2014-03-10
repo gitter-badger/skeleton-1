@@ -1,3 +1,4 @@
+<?php
 /**
  * Danny's Skeleton child theme
  * Containing nothing other than 
