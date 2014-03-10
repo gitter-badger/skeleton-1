@@ -13,7 +13,7 @@ Author URI: https://github.com/Dannyholt/
 Template: dms
 */
 
-You can change all info except for `Template: dms` as this tells Wordpress, this theme is a child theme of DMS.
+You can change all info except for `Template: dms` as this informs Wordpress, this theme is a child theme of DMS.
 
 For example:
 
