@@ -4,7 +4,7 @@ A simple child theme for PageLines DMS 1.x and 2.x, containing nothing, but the 
 
 ## Read me!
 
-### I want to name it something else ?
+### I want to rename it ?
 
 Download Skeleton to your computer and extract the **Skeleton-master.zip**, this will create a folder called **Skeleton-master**. Now simply rename the folder to whatever you like, this is usually your theme name.
 
