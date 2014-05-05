@@ -47,10 +47,18 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  color: #666666;
+  color: #9B59B6;
   letter-spacing: -.025rem;
 }
 
+.header-title {
+  display: inline-block;
+  padding: .5rem 1.5rem;
+  margin-bottom: 1rem;
+  border: .2rem solid #9B59B6;
+  border-radius: .1rem;
+  color: #9B59B6;
+}
 
 /*
  * Wrapper
@@ -471,17 +479,30 @@ a.pagination-item:hover {
  * Some useful utilities
  */
 
+ hr {
+  max-width: 6rem;
+  margin: 3rem auto;
+  border-top-color: #32343C;
+  border-bottom: 0;
+}
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
 }
+
 .list-inline {
   padding-left: 0;
   margin-left: -5px;
   list-style: none;
 }
+
 .list-inline > li {
   display: inline-block;
   padding-right: 5px;
   padding-left: 5px;
+}
+
+.center {
+  text-align: center;
 }

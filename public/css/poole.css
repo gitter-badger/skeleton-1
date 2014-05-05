@@ -108,7 +108,7 @@ p {
 }
 
 strong {
-  color: #303030;
+  color: #999999;
 }
 
 
@@ -153,8 +153,8 @@ pre {
 code {
   padding: .25em .5em;
   font-size: 85%;
-  color: #bf616a;
-  background-color: #f9f9f9;
+  color: #FFFFFF;
+  background-color: #9B59B6;
   border-radius: 3px;
 }
 pre {
@@ -168,7 +168,7 @@ pre {
   white-space: pre-wrap;
   word-break: break-all;
   word-wrap: break-word;
-  background-color: #f9f9f9;
+  background-color: #333333;
 }
 pre code {
   padding: 0;
