@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Skeleton
 tagline:          'A bare bones child theme for PageLines DMS'
-description:      'Skeleton is a unassuming child theme for [PageLines DMS](http://pagelines.com), by focusing on simplicity over complexity. It does this by removing all nonessential files, offering a simple structure from which you can build upon.'
+description:      'Skeleton is a unassuming child theme for <a href="http://pagelines.com" target="_blank">PageLines DMS</a>, by focusing on simplicity over complexity. It does this by removing all nonessential files, offering a simple structure from which you can build upon.'
 url:              http://dannyholt.github.io/skeleton/
 baseurl:          /skeleton
 
