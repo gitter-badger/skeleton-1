@@ -1,10 +1,10 @@
 <?php
 /*
-	Section: Skeleton Masthead
+	Section: Masthead
 	Author: PageLines
 	Author URI: http://www.pagelines.com
 	Description: A responsive full width splash and text area. Great for getting big ideas across quickly.
-	Class Name: SkeletonMasthead
+	Class Name: PLMasthead
 	Edition: pro
 	Workswith: templates, main, header, morefoot
 	Filter: component
@@ -17,7 +17,7 @@
  * @package PageLines DMS
  * @author PageLines
  */
-class SkeletonMasthead extends PageLinesSection {
+class PLMasthead extends PageLinesSection {
 
     var $tabID = 'masthead_meta';
 
@@ -31,7 +31,7 @@ class SkeletonMasthead extends PageLinesSection {
 	    		</script>
 	    	<?php }
     }
-
+	
 	function section_opts(  ){
 
 		$options = array(
@@ -70,18 +70,18 @@ class SkeletonMasthead extends PageLinesSection {
 							array(
 								'key'		=> 'pagelines_masthead_title',
 								'type'		=> 'text',
-								'label'		=> __( 'Title', 'pagelines' ),
+								'label'		=> __( 'Title', 'pagelines' ), 
 							),
 							array(
 								'key'	=> 'pagelines_masthead_tagline',
 								'type'	=> 'text',
-								'label'	=>__( 'Tagline', 'pagelines' ),
+								'label'	=>__( 'Tagline', 'pagelines' ), 
 							)
 						),
 
 				),
-		);
-
+		); 
+			
 		for($i = 1; $i <= 2; $i++){
 
 			$options[] = array(
@@ -113,35 +113,35 @@ class SkeletonMasthead extends PageLinesSection {
 						'type'			=> 'select_button',
 						'default'		=> false,
 						'label'		=> __( 'Select Button Color', 'pagelines' ),
-
+					
 					),
 				)
 			);
 
 		}
-
-
+			
+				
 		$options[] = array(
 					'col'		=> 2,
 					'key'		=> 'masthead_menu',
 					'type' 			=> 'select_menu',
 					'title'			=> __( 'Masthead Menu', 'pagelines' ),
 					'inputlabel' 	=> __( 'Select Masthead Menu', 'pagelines' ),
-				);
+				); 
 		$options[] = array(
 					'col'				=> 2,
 					'key'		=> 'masthead_meta',
 					'type' 			=> 'text',
 					'title'			=> __( 'Masthead Meta', 'pagelines' ),
 					'inputlabel' 	=> __( 'Enter Masthead Meta Text', 'pagelines' ),
-				);
+				); 
 
-
+		
 
 		return $options;
 	}
-
-
+	
+	
 
 	/**
 	* Section template.
@@ -158,12 +158,12 @@ class SkeletonMasthead extends PageLinesSection {
 		$mast_title = (!$mast_title) ? 'Hello.' : $mast_title;
 
 		$classes = ($mast_img) ? 'with-splash' : '';
-
+		
 	?>
 
 	<header class="jumbotron masthead <?php echo $classes;?>">
 	  	<?php
-
+	
 			$theimg = $this->image( 'pagelines_masthead_img', false, array( 'masthead-img' ) );
 	  		$masthtml = $this->opt('pagelines_masthead_html');
 
