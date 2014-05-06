@@ -3,7 +3,7 @@ layout: page
 title: Help
 ---
 
-Skeleton was developed to give DMS users an effective foundation for building DMS themes. Due to Skeletons simplicity, it allows for quick and efficient theming.
+Skeleton was created to give DMS users an effective foundation for building DMS themes. Due to Skeletons simplicity, it allows for quick and efficient theming.
 
 ### Getting Started
 
