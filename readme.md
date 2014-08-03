@@ -8,13 +8,13 @@ Skeleton contains two branches (versions), these are Basic and Advanced.
 
 The Basic version is mainly aimed at users who wish to make basic style alterations and includes the following:
 
-{% highlight html %}
+~~~
 skeleton/
 ├── functions.php/
 ├── screenshot.png
 ├── style.css/
 └── style.less/
-{% endhighlight %}
+~~~
 
 <p><a class="btn" href="{{ site.github.repo }}/archive/basic.zip" role="button">Download Skeleton Basic</a></p>
 
@@ -22,7 +22,7 @@ skeleton/
 
 The Advanced version is mainly aimed for developers wishing to create child themes for the [PageLines Marketplace](http://pagelines.com/shop), their clients and includes the following:
 
-{% highlight html %}
+~~~
 skeleton/
 ├── less/
 │   ├── variables.less/
@@ -32,7 +32,7 @@ skeleton/
 ├── screenshot.png
 ├── style.css/
 └── style.less/
-{% endhighlight %}
+~~~
 
 Which allows you to override the default styling of DMS and create childs of the core sections bundled with DMS.
 
@@ -51,7 +51,7 @@ To get started simply download your preferred Skeleton version and extract the *
 
 Open **style.css** in your favourite code editor (I recommend [Sublime Text](http://www.sublimetext.com/)), where you will find the following:
 
-{% highlight html %}
+~~~
 /*
 Theme Name: Skeleton
 Theme URI: http://www.pagelines.com
@@ -61,11 +61,11 @@ Author: Danny Holt
 Author URI: https://github.com/Dannyholt/
 Template: dms
 */
-{% endhighlight %}
+~~~
 
 You can edit all headers except for `Template: dms` which informs Wordpress that this is a child theme for DMS. For example:
 
-{% highlight html %}
+~~~
 /*
 Theme Name: My Theme Name
 Theme URI: http://www.my-website.com
@@ -75,7 +75,7 @@ Author: My Name goes here
 Author URI: http://www.my-website.com
 Template: dms
 */
-{% endhighlight %}
+~~~
 
 
 ### Install
@@ -89,9 +89,9 @@ If you're unsure how to create a **.zip** of your child theme directory, use the
 
 An alternative method of installation would be to use an FTP client and upload the **unzipped directory** to the following:
 
-{% highlight html %}
+~~~
 /wp-content/themes/
-{% endhighlight %}
+~~~
 
 For a more indepth guide on how to install a WordPress theme, follow the instructions on this [guide](http://codex.wordpress.org/Using_Themes).
 
