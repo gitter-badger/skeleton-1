@@ -1,18 +1,57 @@
-# Danny's Skeleton Theme
+Skeleton was created to give DMS users an effective foundation for building DMS themes. Due to Skeletons simplicity, it allows for quick and efficient theming.
 
-A simple child theme for PageLines DMS 1.x and 2.x, containing nothing, but the bare bone (no pun intended) files. The idea behind Skeleton is to provide you to have an insanely basic child theme for which you can build upon.
+### Getting Started
 
-## Read me!
+Skeleton contains two branches (versions), these are Basic and Advanced.
 
-### I want to rename it ?
+#### Basic
 
-Download Skeleton to your computer and extract the **Skeleton-master.zip**, this will create a folder called **Skeleton-master**. Now simply rename the folder to whatever you like, this is usually your theme name.
+The Basic version is mainly aimed at users who wish to make basic style alterations and includes the following:
 
-### Editing the style.css file
+~~~
+skeleton/
+├── functions.php/
+├── screenshot.png
+├── style.css/
+└── style.less/
+~~~
 
-In the **style.css** file, you will find the following:
+<p><a class="btn" href="{{ site.github.repo }}/archive/basic.zip" role="button">Download Skeleton Basic</a></p>
 
-```
+#### Advanced
+
+The Advanced version is mainly aimed for developers wishing to create child themes for the [PageLines Marketplace](http://pagelines.com/shop), their clients and includes the following:
+
+~~~
+skeleton/
+├── less/
+│   ├── variables.less/
+├── sections/
+│   ├── masthead/ /* Overrides the core Masthead */
+├── functions.php/
+├── screenshot.png
+├── style.css/
+└── style.less/
+~~~
+
+Which allows you to override the default styling of DMS and create childs of the core sections bundled with DMS.
+
+<p><a class="btn" href="{{ site.github.repo }}/archive/advanced.zip" role="button">Download Skeleton Advanced</a></p>
+
+
+### Rebranding
+
+**Skeleton** can easily be rebranded, by following the simple instructions below:
+
+#### Directory Name
+
+To get started simply download your preferred Skeleton version and extract the **.zip**, which will create a directory called **skeleton-version-name** on your computer. Rename this directory to whatever you like, usually this is your themes name.
+
+#### Edit style.css
+
+Open **style.css** in your favourite code editor (I recommend [Sublime Text](http://www.sublimetext.com/)), where you will find the following:
+
+~~~
 /*
 Theme Name: Skeleton
 Theme URI: http://www.pagelines.com
@@ -22,39 +61,40 @@ Author: Danny Holt
 Author URI: https://github.com/Dannyholt/
 Template: dms
 */
-```
+~~~
 
-You can edit all headers except for `Template: dms` which informs Wordpress that this is a DMS child theme.
+You can edit all headers except for `Template: dms` which informs Wordpress that this is a child theme for DMS. For example:
 
-For example:
-
-```
+~~~
 /*
 Theme Name: My Theme Name
 Theme URI: http://www.my-website.com
 Description: My Themes description goes here...
-Version: 6.6.6
+Version: 1.1.1
 Author: My Name goes here
 Author URI: http://www.my-website.com
 Template: dms
 */
-```
+~~~
 
-### Advanced Users
 
-Although Skeleton is insanely basic, advanced users can get adventurous and include a language, less and sections directories to their theme. Allowing you to add extra functionality and give more control over how your child theme functions.
+### Install
 
-#### Language Directory
+Once you're happy with your edits, save your changes and upload the theme to your WordPress installation. You can do this by creating a **.zip** of your child theme directory and uploading to your site via the WordPress theme installer.
 
-Adding a language folder to your child theme gives you the option to translate your theme into multiple languages.
+If you're unsure how to create a **.zip** of your child theme directory, use the guides below for your preferred OS.
 
-#### LESS Directory
+* [Mac OSX](http://www.macinstruct.com/node/159)
+* [Windows](http://windows.microsoft.com/en-gb/windows/compress-uncompress-files-zip-files)
 
-Copying the **/less** directory that ships with DMS and pasting into your child theme directory, allows you to theme quickly without the need to override the default styling.
+An alternative method of installation would be to use an FTP client and upload the **unzipped directory** to the following:
 
-#### Sections Directory
+~~~
+/wp-content/themes/
+~~~
 
-One of the cool things about adding a **/sections** directory to your child theme is that, you can override the core sections without having to fear an update wiping your changes.
+For a more indepth guide on how to install a WordPress theme, follow the instructions on this [guide](http://codex.wordpress.org/Using_Themes).
 
-Want to change how the NavBar functions? Simply copy the **/navbar** directory into your child themes **/sections** directory and edit away.
+### Issues
 
+Have some problems with Skeleton? [Open an issue.](https://github.com/Dannyholt/skeleton/issues)
