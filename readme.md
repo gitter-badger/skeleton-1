@@ -16,7 +16,7 @@ skeleton/
 └── style.less/
 ~~~
 
-<p><a class="btn" href="{{ site.github.repo }}/archive/basic.zip" role="button">Download Skeleton Basic</a></p>
+<p><a class="btn" href="https://github.com/Dannyholt/skeleton/archive/basic.zip" role="button">Download Skeleton Basic</a></p>
 
 #### Advanced
 
@@ -36,7 +36,7 @@ skeleton/
 
 Which allows you to override the default styling of DMS and create childs of the core sections bundled with DMS.
 
-<p><a class="btn" href="{{ site.github.repo }}/archive/advanced.zip" role="button">Download Skeleton Advanced</a></p>
+<p><a class="btn" href="https://github.com/Dannyholt/skeleton/archive/advanced.zip" role="button">Download Skeleton Advanced</a></p>
 
 
 ### Rebranding
