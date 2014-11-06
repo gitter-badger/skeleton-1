@@ -1,6 +1,7 @@
 Skeleton was created to give DMS users an effective foundation for building DMS themes. Due to Skeletons simplicity, it allows for quick and efficient theming.
 
 ### Getting Started
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/Dannyholt/skeleton?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Skeleton contains two branches (versions), these are Basic and Advanced.
 
